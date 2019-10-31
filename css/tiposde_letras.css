@@ -1,0 +1,14 @@
+@font-face{
+    font-family: "anton";
+    src: url("../medias/letras/Anton-Regular.ttf");
+}
+
+@font-face{
+    font-family: "indie";
+    src: url("../medias/letras/IndieFlower-Regular.ttf");
+}
+
+@font-face{
+    font-family: "mansalva";
+    src: url("../medias/letras/Mansalva-Regular.ttf");
+}

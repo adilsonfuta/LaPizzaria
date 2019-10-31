@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url("tiposde_letras.css");
+
+h1{
+    color: brown;
+    font-family: anton;
+
+}
