@@ -29,22 +29,22 @@ header div a{
     font-size: 30px;
     font-family: indie;
     border: solid 3px #803205;
-   
-   
+    margin-right: 300px;
 }
 
 .menus ul  li {     
-    margin-left: 200px;
+    margin-left: 100px;
     float: left;   
     list-style: none;
     display: inline;  
-    font-size: 30px;
+    font-size: 20px;
    
 }
 
-.menus ul  li:hover {
-    background-color: rgba(228, 124, 87,0.6);
-    border-radius: solid 0.9px;
+.menus ul>li:hover {
+    border: 1px solid #fff;
+    font-size: 22px;
+  
 }
 
 .cabelo{
@@ -53,13 +53,14 @@ header div a{
     background-image: url("../medias/fotos/01-massa-pizza.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding-top: 20px;
+    padding-top: 25px;
+    color:#fff;
 }
 
 .cabelo #h > h1 ,.cabelo #h > h5
 {
 padding-top: 70px;
-color:rgb(228, 216, 216);
+
 font-style: bold;
 font-size: 500%;
 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -71,31 +72,81 @@ text-align: center;
 
 /* cabecalho fim */
 
+/* zona 1 inicio  */
 
 section#zona1{
     width: 100%;
-    padding-top: 30px; 
+    padding-top: 50px; 
      
-     height: 280px;
+     height: 240px;
      text-align: center;
      background-color: coral;
+     color: white;
  }
 
+ #zona1 h4{
+    font-style: bold;
+    font-size: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+ }
+
+ #zona1 h6{
+padding-top: 20px;
+color:rgb(248, 239, 239);
+font-style: bold;
+font-size: 100%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+}
+
+
+ /* zona 1 fim  */
+
+ /* zona 2 inicio  */
  section#zona2{ 
     width: 100%;
-    padding-top: 40px; 
-    
-     height: 500px;
+    padding-top: 40px;     
+     height: 400px;
      text-align: center;
      background-color: rgb(231, 219, 214);
  }
 
- section#zona2 > #foto img{
-   /* 
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-  */
+ section#zona2  img{
+    width: 400px;
+    height: 350px;
+    float: left; 
+    margin-left: 400px;
+    border: #fff 3px solid;
+ }
+
+ section#zona2 > #conteudo{
+    margin-left: 30px;
     width: 410px;
     height: 410px;
+    float: left; 
  
+ }
+
+
+ button.btncardapio, button.btncardapio a{
+     padding: 10px;
+     background-color: rgb(44, 40, 40);
+     font-size: 20px;
+     color: white;
+     text-decoration: none;
+ }
+
+
+ /* zona 1 inicio  */
+
+section#zona3{
+    width: 100%;
+    padding-top: 50px; 
+     
+     height: 240px;
+     text-align: center;
+     background-color: wheat;
+     color: white;
  }
