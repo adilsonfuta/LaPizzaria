@@ -145,8 +145,19 @@ section#zona3{
     width: 100%;
     padding-top: 50px; 
      
-     height: 240px;
+     height: 340px;
      text-align: center;
      background-color: wheat;
+     color: white;
+ }
+
+
+ #rodape{
+    width: 100%;
+    padding-top: 50px; 
+     
+     height: 400px;
+     text-align: center;
+     background-color: rgb(73, 63, 43);
      color: white;
  }
