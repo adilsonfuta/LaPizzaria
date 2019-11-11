@@ -1,5 +1,12 @@
 {
     "configurations": [
+        
+        {
+            "name": "Dart",
+            "type": "dart",
+            "request": "launch",
+            "program": "bin/main.dart"
+        },
         {
             "type": "java",
             "name": "CodeLens (Launch) - a",
