@@ -34,11 +34,11 @@ header div a{
 
 .menus ul  li {     
     margin-left: 100px;
-    float: left;   
+     
     list-style: none;
     display: inline;  
     font-size: 20px;
-   
+    
 }
 
 .menus ul>li:hover {
