@@ -20,6 +20,7 @@ header div a{
     text-shadow: 10px; 
 }
 
+
 .logotipo{
     position: relative;
     float: left;
@@ -29,6 +30,7 @@ header div a{
     font-family: indie;
     border: solid 3px #803205;
     margin-right: 300px;
+    padding: 3px;
 }
 
 .menus ul  li {     
@@ -61,8 +63,11 @@ padding-top: 70px;
 
 font-style: bold;
 font-size: 500%;
-font-family: Georgia, 'Times New Roman', Times, serif;
 text-align: center;
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+
 }
 
 

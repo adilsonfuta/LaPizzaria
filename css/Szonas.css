@@ -10,6 +10,7 @@ section#zona1{
      text-align: center;
      background-color:   #FF866A;
      color: white;
+     border-bottom: 2px #fff solid;
 
    
  }
@@ -17,7 +18,7 @@ section#zona1{
  #zona1 h4{
     font-style: bold;
     font-size: 200%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: indie;
     text-align: center;
 
  }
@@ -32,15 +33,16 @@ text-align: center;
 }
 
 
- /* zona 1 fim  */
 
  /* zona 2 inicio  */
+
  section#zona2{ 
     width: 100%;
     padding-top: 40px;     
      height: 400px;
      text-align: center;
      background-color:#EDEADB;
+     border-bottom: 1px solid;
  }
 
  section#zona2  img{
@@ -56,7 +58,26 @@ text-align: center;
     width: 410px;
     height: 410px;
     float: left; 
- 
+    text-align: left;
+ }
+
+
+ #zona2 h2{
+     color: #600606;
+    
+ }
+
+ #zona2>div > p#P1{
+    color:rgb(19, 20, 19);
+    font-size: 28px;
+    
+ }
+
+ #zona2>div > p#P2{
+    color:rgb(19, 20, 19);
+    font-size: 18px;
+    text-justify: auto;
+    
  }
 
 
@@ -69,7 +90,7 @@ text-align: center;
  }
 
 
- /* zona 1 inicio  */
+ /* zona 3 inicio  */
 
 section#zona3{
     width: 100%;
@@ -80,3 +101,19 @@ section#zona3{
      background-color:#FFFFFF;
      color: white;
  }
+
+
+ #zona3 h2{
+   color: #600606;
+   float: left;
+   padding-left: 400px; 
+   padding-bottom: 30px;
+  
+}
+
+section#zona3 .exemplo_p{
+   float: left;
+   position: relative;
+   color: black;
+   font-size: 15px;
+}
