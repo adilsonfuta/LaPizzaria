@@ -115,8 +115,11 @@ section#zona3{
 }
 
 section#zona3 .exemplo_p{
-   float: left;
+   padding: 5px;
+   
    position: relative;
    color: black;
-   font-size: 15px;
+   font-size: 20px;
+   font-style: bold;
+
 }
