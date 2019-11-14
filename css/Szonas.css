@@ -76,10 +76,13 @@ text-align: center;
  #zona2>div > p#P2{
     color:rgb(19, 20, 19);
     font-size: 18px;
-    text-justify: auto;
-    
+    text-justify: auto;    
  }
 
+
+#zona2 h2 .zh2{
+   padding-bottom: 4px;
+}
 
  button.btncardapio, button.btncardapio a{
      padding: 10px;
